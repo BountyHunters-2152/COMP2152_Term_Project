@@ -1,30 +1,34 @@
 # ============================================================
 #  VULNERABILITY: SQL Injection (SQLi)
 #  Target: search.0x10.cloud
-#  Author: Kalid Ali
+#  Author: [Kalid Ali]
 # ============================================================
-#
-#  SQL Injection is a vulnerability where user input is directly
-#  inserted into a database query without proper validation.
-#
-#  This can allow attackers to:
-#  - Break the structure of the SQL query
-#  - Trigger database error messages
-#  - Change how the query behaves (e.g., return all records)
-#  - Reveal internal application or database information
-#
-#  In this case, the search feature is vulnerable because it
-#  does not properly sanitize input. When a special character
-#  is submitted, the server returns SQL errors, exposes database
-#  details, and may return unintended results.
-#
-#  This script demonstrates how a simple input can interfere
-#  with the backend query and reveal sensitive system behavior.
-#
-#  Technique: Send a crafted payload through the search parameter,
-#  then analyze the HTTP response for SQL errors, debug messages,
-#  and unexpected data returned by the server.
-# ============================================================
+
+#  SQL Injection occurs when user input is inserted directly
+# #  into a database query without proper validation or sanitization.
+# #  This allows attackers to:
+# #  - Break the structure of SQL queries
+# #  - Trigger database error messages
+# #  - Modify query logic (e.g., return all records)
+# #  - Access internal application data
+# #
+# #  In this case, the search feature on search.0x10.cloud is
+# #  vulnerable. A crafted input causes:
+# #  - SQL error messages (e.g., MySQL syntax errors)
+# #  - Database information disclosure (version/schema)
+# #  - Query manipulation (returns all records)
+# #  - Exposure of internal application data (titles only)
+# #
+# #  NOTE:
+# #  The exposed data (e.g., "Database Credentials", "SSH Key Management")
+# #  are titles, not actual secrets. However, this still proves that
+# #  restricted/internal data is being returned, confirming the vulnerability.
+# #
+# #  Technique:
+# #  Send a chosen payload (') through the search parameter,
+# #  then analyze the HTTP response for:
+# #  - General SQLi indicators (errors, DB info)
+# #  - Application-specific indicators (0x10.cloud) ============================================================
 
 import urllib.request
 import urllib.parse
@@ -70,12 +74,13 @@ try:
         print("      [-] Database details exposed (version and schema).")
         found = True
 
+    # --- Application-specific indicators (0x10.cloud) ---
     # Indicates that the query logic was altered by the input
     if "All Records Returned" in html_code:
         print("      [-] Query manipulation successful: all records returned.")
         found = True
 
-    # Internal entries visible in results (metadata, not actual secrets)
+    # Internal entries visible in results
     if "Database Credentials" in html_code or "SSH Key" in html_code:
         print("      [-] Internal system entries visible (titles only).")
         found = True
