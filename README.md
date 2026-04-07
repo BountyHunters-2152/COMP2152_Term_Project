@@ -16,7 +16,7 @@ Team: BountyHunters-2152
 
 Each team member records a short video (max 3 minutes) explaining their vulnerability. Add your YouTube links below:
 
-- Member 1: https://youtube.com/watch?v=_______
+- Kalid Ali: https://www.youtube.com/watch?v=5aqu3l44CoE
 - Member 2: https://youtube.com/watch?v=_______
 - Member 3: https://youtube.com/watch?v=_______
 
