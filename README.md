@@ -8,7 +8,7 @@ Team: BountyHunters-2152
 
 | Member               | Vulnerability Found                     | Branch Name               |
 |----------            |-----------------------------------      |---------------------------|
-| Kalid Ali            | SQL Injection (search.0x10.cloud)       | kalid_search_sqli         |
+| Kalid Ali            | SQL Injection (search.0x10.cloud)       | kalid_search_sqli   |
 | Mohamed Amine OUATAR | Unrestricted Upload (upload.0x10.cloud) | amine_unrestricted_upload |
 | _______              | _______                                 | _______                   |
 
