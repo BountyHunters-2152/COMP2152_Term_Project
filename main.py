@@ -11,6 +11,7 @@ scripts = [
     "example_http_check.py",
     "example_port_check.py",
     "example_header_check.py",
+    "edoise_unauth_mongodb.py",
 ]
 
 if __name__ == "__main__":
