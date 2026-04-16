@@ -6,18 +6,18 @@ Team: BountyHunters-2152
 
 ## Team Members
 
-| Member    | Vulnerability Found               | Branch Name       |
-|-----------|-----------------------------------|-------------------|
-| Kalid Ali | SQL Injection (search.0x10.cloud) | kalid_search_sqli |
-| _______   | _______                           | _______           |
-| _______   | _______                           | _______           |
+| Member               | Vulnerability Found                     | Branch Name               |
+|----------            |-----------------------------------      |---------------------------|
+| Kalid Ali            | SQL Injection (search.0x10.cloud)       | kalid_search_sqli         |
+| Mohamed Amine OUATAR | Unrestricted Upload (upload.0x10.cloud) | amine_unrestricted_upload |
+| _______              | _______                                 | _______                   |
 
 ## Videos
 
 Each team member records a short video (max 3 minutes) explaining their vulnerability. Add your YouTube links below:
 
 - Kalid Ali: https://www.youtube.com/watch?v=5aqu3l44CoE
-- Member 2: https://youtube.com/watch?v=_______
+- Mohamed Amine OUATAR: https://www.youtube.com/watch?v=kZ-0Ig5jMvc
 - Member 3: https://youtube.com/watch?v=_______
 
 ## Target
