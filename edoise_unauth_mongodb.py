@@ -22,7 +22,6 @@
 #  send a safe read-only MongoDB hello request, then analyze the
 #  response for the phrase "authentication":"disabled".
 #
-#  NOTE:
 #  This proof is read-only. It does not write, delete, modify,
 #  brute force, or attempt to dump database contents.
 # ============================================================
