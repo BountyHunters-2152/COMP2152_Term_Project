@@ -19,7 +19,7 @@ Each team member records a short video (max 3 minutes) explaining their vulnerab
 
 - Kalid Ali: https://www.youtube.com/watch?v=5aqu3l44CoE
 - Mohamed Amine OUATAR: https://www.youtube.com/watch?v=kZ-0Ig5jMvc
-- Joshua Zaakir: pending 
+- Joshua Zaakir: https://www.youtube.com/watch?v=0UtV8WJB-SE
 
 ## Target
 
