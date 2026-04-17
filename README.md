@@ -10,7 +10,7 @@ Team: BountyHunters-2152
 |----------            |-----------------------------------      |---------------------------|
 | Kalid Ali            | SQL Injection (search.0x10.cloud)       | kalid_search_sqli         |
 | Mohamed Amine OUATAR | Unrestricted Upload (upload.0x10.cloud) | amine_unrestricted_upload |
-| Joshua Zaakir | Publicly Accessible Admin Panel | josh_project_part |
+| Joshua Zaakir | Publicly Accessible Admin Panel | josh_project_part | 
 | _______              | _______                                 | _______                   |
 
 ## Videos
