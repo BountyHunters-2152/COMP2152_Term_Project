@@ -6,12 +6,12 @@ Team: BountyHunters-2152
 
 ## Team Members
 
-| Member               | Vulnerability Found                     | Branch Name               |
-|----------            |-----------------------------------      |---------------------------|
-| Kalid Ali            | SQL Injection (search.0x10.cloud)       | kalid_search_sqli         |
-| Mohamed Amine OUATAR | Unrestricted Upload (upload.0x10.cloud) | amine_unrestricted_upload |
-| Joshua Zaakir | Publicly Accessible Admin Panel | josh_project_part | 
-| _______              | _______                                 | _______                   |
+| Member               | Vulnerability Found                                                | Branch Name               |
+|----------------------|--------------------------------------------------------------------|---------------------------|
+| Kalid Ali            | SQL Injection (search.0x10.cloud)                                  | kalid_search_sqli         |
+| Mohamed Amine OUATAR | Unrestricted Upload (upload.0x10.cloud)                            | amine_unrestricted_upload |
+| Joshua Zaakir        | Publicly Accessible Admin Panel                                    | josh_project_part         |
+| Phillip Onofua       | Default Admin Credentials Return Unsigned JWT (login.0x10.cloud)   | phillip_default_admin_jwt |
 
 ## Videos
 
@@ -20,6 +20,7 @@ Each team member records a short video (max 3 minutes) explaining their vulnerab
 - Kalid Ali: https://www.youtube.com/watch?v=5aqu3l44CoE
 - Mohamed Amine OUATAR: https://www.youtube.com/watch?v=kZ-0Ig5jMvc
 - Joshua Zaakir: pending
+- Phillip Onofua: https://youtu.be/tyfi3gHtQO4
 
 ## Target
 
