@@ -11,6 +11,7 @@ scripts = [
     "example_http_check.py",
     "example_port_check.py",
     "example_header_check.py",
+    "phillip_default_admin_jwt.py",
 ]
 
 if __name__ == "__main__":
